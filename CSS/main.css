@@ -7,7 +7,7 @@
 }
 
 .main-section {
-    padding: 7.5rem 1.87rem ;
+    padding: 7.5rem 1.87rem;
 }
 
 .main-section>div {
@@ -413,12 +413,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+
     /* Main section */
     .main-section__image {
         display: none;
     }
 
-    .main-section > div {
+    .main-section>div {
         width: 100%;
     }
 
@@ -433,7 +434,7 @@
         padding: 1.5rem 0;
     }
 
-    .about-me > div {
+    .about-me>div {
         width: 100%;
     }
 
@@ -453,9 +454,10 @@
 
     /* Clients section */
     .clients {
-        padding:1.5rem 0 ;
+        padding: 1.5rem 0;
     }
-    .clients-item > div {
+
+    .clients-item>div {
         width: 100%;
         float: none;
     }
@@ -467,10 +469,10 @@
 
     .blog-item {
         width: 45%;
-        margin-right:0 ;
+        margin-right: 0;
         margin-bottom: 20px;
     }
-    
+
     /* Partners section */
     .partners {
         padding: 1.5rem 0;
@@ -480,21 +482,23 @@
         display: block;
         padding: 0;
         text-align: center;
-        margin-bottom:  10px; ;
+        margin-bottom: 10px;
+        ;
     }
 }
 
 @media only screen and (max-width: 767px) {
-   /* Main section */
+
+    /* Main section */
     .main-banner {
-       background: none; 
-       min-height: auto;
+        background: none;
+        min-height: auto;
     }
-    
+
     .main-section__action {
         display: none;
     }
-     
+
     .main-section__introduction {
         font-size: 3rem;
     }
@@ -516,8 +520,9 @@
 
     /* Portfolio section */
     .portfolio {
-        padding:1.5rem 0;
+        padding: 1.5rem 0;
     }
+
     .portfolio-item {
         width: 100%;
     }
@@ -530,7 +535,7 @@
     /* Blog section */
     .blog-item {
         width: 100%;
-        margin-right:0 ;
+        margin-right: 0;
         margin-bottom: 20px;
     }
 
